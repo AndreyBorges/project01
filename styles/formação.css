@@ -63,6 +63,7 @@
   border-radius: 4px;
   display: flex;
   flex-direction: column;
+  min-width: 35%;
 }
 
 .faculdade-tipo{

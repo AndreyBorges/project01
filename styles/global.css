@@ -9,6 +9,7 @@
   outline: none;
   text-decoration: none;
   list-style: none;
+  scroll-behavior:smooth;
 }
 
 h1, h2, h3, p{
