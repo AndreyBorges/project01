@@ -67,21 +67,26 @@
 }
 
 @media (max-width: 480px){
-  .introduction{
-    grid-template-columns: 1fr;
-    object-fit: cover;
-  }
   .introduction img{
     display: none;
   }
-
+  
+  .introduction{
+    display: block;
+      
+  }
   .introduction{
     text-align: center;
+    margin: 0 auto;
     
   }
 
   .introduction h1::before{
     background: none;
+  }
+
+  .content.introduction{
+    grid-template-columns: 1fr;
   }
 
 }
